@@ -2,16 +2,19 @@
 
 ## Краткое описание
 
-04.10.2021 - 05.10.2021 было проведено функциональное (модульное) тестирование приложения MoneyTransfer.
+04.10.2021 - 05.10.2021 было проведено функциональное (модульное) тестирование программы Credit Card Number Validator.
 
 На тестирование затрачено: 4 часа.
 
 В результате тестирования выявлены следующие дефекты:
-* [Не принимаются любые валидные карты, которые состоят не из 16 символов](https://github.com/aremarss/javaqa-1/issues/1)
+* [Не принимаются любые валидные карты, которые состоят не из 16 символов](https://github.com/aremarss/java_1.1/issues/1)
 
 ## Описание процесса тестирования
 
 В качестве тестовых данных использовались данные [Задания 2 - Credit Card Number Validator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/MERGED.md):
+___
+* [Пример валидных карт из freeformatter.com](https://www.freeformatter.com/credit-card-number-generator-validator.html)
+___
 * Программа:
 ``` java
 public class Main {
@@ -52,7 +55,7 @@ public class Main {
   }
 }
 ```
-
+___
 Тестирование производилось в следующем окружении:
 * Windows 10, 64-bit;
 * Java 11.0.12;
